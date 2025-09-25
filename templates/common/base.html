@@ -184,16 +184,11 @@ explicit grant from the SFTPGo Team (support@sftpgo.com).
     //{{- range .Languages}}
     //{{- if eq . "en"}}
     lngs.en = { nativeName: 'English' };
-    //{{- else if eq . "it" }}
-    lngs.it = { nativeName: 'Italiano' };
-    //{{- else if eq . "de" }}
-    lngs.de = { nativeName: 'Deutsch' };
-    //{{- else if eq . "fr" }}
-    lngs.fr = { nativeName: 'Français' };
+    lngs.tr = { nativeName: 'Türkçe' };
     //{{- end}}
     //{{- end}}
     if (Object.keys(lngs).length == 0){
-        lngs.en = { nativeName: 'English' };
+        lngs.tr = { nativeName: 'Türkçe' };
     }
 
     const renderI18n = () => {
