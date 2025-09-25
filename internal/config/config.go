@@ -120,7 +120,7 @@ var (
 		ClientIPHeaderDepth:  0,
 		HideLoginURL:         0,
 		RenderOpenAPI:        true,
-		Languages:            []string{"en"},
+		Languages:            []string{"en","tr"},
 		OIDC: httpd.OIDC{
 			ClientID:                   "",
 			ClientSecret:               "",
